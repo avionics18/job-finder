@@ -1,0 +1,104 @@
+/* Global Styles */
+.page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* HOME JS COMPONENT */
+/*Hero*/
+#hero-bg {
+  background: url("https://s3-us-east-2.amazonaws.com/the-riveter/wp-content/uploads/2019/09/25164306/9.25.19.woman_job_interview_getty_cropped.jpg")
+    no-repeat center;
+  background-size: cover;
+}
+#hero-content {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+#hero-content h1 {
+  padding-left: 40px;
+  width: 400px;
+}
+
+/* CAREER JS COMPONENT */
+#career-cover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)),
+    url("https://www.systemoneservices.com/wp-content/uploads/2015/06/careers.jpg")
+      no-repeat center;
+  background-size: cover;
+}
+#job-list {
+  background-color: #ddd;
+}
+#job-details {
+  height: 100vh;
+  overflow: auto;
+  position: sticky;
+  top: 0;
+}
+
+#job-list > .card {
+  margin-bottom: 1rem;
+  background-color: #f4f4f4;
+  transition: 0.3s;
+}
+#job-list > .card:hover,
+#job-list > .card:focus {
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2) !important;
+}
+#job-list > .card:last-child {
+  margin-bottom: 0;
+}
+
+/* ABOUT JS COMPONENT */
+#about-cover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)),
+    url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fkathycaprino%2Ffiles%2F2018%2F10%2FiStock-504987926-1200x800.jpg")
+      no-repeat center;
+  background-size: cover;
+}
+#testimonial .nav-link.active {
+  background-color: var(--light) !important;
+  border: 1px solid var(--primary);
+}
+#testimonial .nav-link img {
+  opacity: 0.5;
+}
+#testimonial .nav-link.active img {
+  opacity: 1;
+}
+
+/* CONTACT JS COMPONENT */
+#contact-cover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)),
+    url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fkathycaprino%2Ffiles%2F2018%2F10%2FiStock-504987926-1200x800.jpg")
+      no-repeat center;
+  background-size: cover;
+}
+#address-box {
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  padding: 3rem 1rem 1rem 2rem;
+  position: relative;
+  margin-top: 60px;
+}
+#address-box-icon {
+  position: absolute;
+  border: 1px solid var(--primary);
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: white;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* FOOTER JS COMPONENT */
+.footer-bottom{
+  background-color: #0f0f0f;
+  padding: 50px 0;
+}
